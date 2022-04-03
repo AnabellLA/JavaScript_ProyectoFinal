@@ -155,8 +155,7 @@ class Carrito{
     }
 
     resumenPedido(e){
-        let listaProductos = document.getElementById('lista-productos');
-        console.log(listaProductos);
+        let index = document.getElementById('index');
         e.preventDefault();
         if(this.obtenerProductosLocalStorage().length === 0){
             swal({
@@ -166,10 +165,10 @@ class Carrito{
                 icon: "error",
             });
         }else{
-            if(listaProductos != null) {
-                location.href = "./compra.html";
-            }else{
+            if(index != null) {
                 location.href = "./pages/compra.html";
+            }else{
+                location.href = "./compra.html";
             }
         }
     }
