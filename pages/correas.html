@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uvita Pets</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="https://kit.fontawesome.com/ac127c9379.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-toggleable-sm sticky-top" style="background-color: rgba(253, 171, 199, 1);font-family:'M PLUS Rounded 1c', sans-serif;font-size: 18px;font-weight: 400;">
+        <div class="container-fluid">
+            <button
+                class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarExample01"
+                aria-controls="navbarExample01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <i class="fas fa-bars" style="color:white;"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarExample01">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" style="font-weight: 600; font-size: 19px;" href="../index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../pages/bandanas.html">Bandanas</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../pages/correas.html">Correas</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../pages/placas_id.html">Placas ID</a></li>
+                    <li class="nav-item dropdown">
+                        <img id="cart" src="../Assest/logos/cart2.png" class="nav-link dropdown-toggle img-fluid" height="60px"
+                            width="60px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <span id="totalCart">0</span>
+                        </img>
+                        <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                            <table id="lista-carrito" class="table">
+                                <thead>
+                                    <tr style="text-align:center;">
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Talla</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody style="text-align:center;"></tbody>
+                            </table>
+                            <p id="emptyCarrito" style="text-align: center;">Carrito vacío</p>
+                            <a href="#" id="vaciar-carrito" class="btn btn-block" style="background-color: rgba(236, 127, 57, 1);color:white;">Vaciar Carrito</a>
+                            <a href="#" id="procesar-pedido" class="btn btn-block" style="background-color: rgba(216, 35, 97);color:white;">Resumen de la Compra</a>
+                        </div>
+                    </li>
+                </ul>
+                <style>
+                    .nav-item:hover{
+                        color: white;
+                        text-decoration-line: underline;
+                        font-weight:500;
+                    }
+                </style>
+            </div>
+            <a class="navbar-brand" href="../index.html"><img class="clase__header__logo" src="../Assest/logos/logo uvita.svg" width="auto" height="72" alt="logo_principal"></a>
+        </div>
+    </nav>
+    <main>
+        <div class="clase__main__producto__pretitulo">
+            <h4>Correas de todos los tamaños para tu engreíd@.</h4>
+        </div>
+
+
+        <div class="container" id="lista-productos">
+            <div id="divCorreas" class="row row-cols-1 row-cols-md-3 g-3">
+            </div>
+        </div> <br>
+
+
+    </main>
+    <footer class="page-footer pt-4" style="background:rgba(253, 171, 199, 1);font-family:'M PLUS Rounded 1c', sans-serif;">
+        <div class="container-fluid text-center text-md-left" style="width: 97%;">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <img src="../Assest/logos/logo uvita.svg" alt="logo_principal" width="auto" height="80" style="padding-bottom: 12px;">
+                    <p class="text-white" style="padding-left: 10px;padding-right: 20px;">Somos Uvita.pets un emprendimiento que busca darle los accesorios
+                    de más alta calidad a nuestros engreídos porque entendemos que son nuestros mejores amigos
+                    y compañeros y, por tanto, merecen lo mejor de lo mejor.
+                    </p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h3 style="color: white;font-size: 25px;font-weight: 700; padding-top: 12px; padding-bottom: 12px;">Nosotros</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="./nosotros.html">Nosotros</a></li>
+                        <li><a class="text-white" href="./pataton.html">Patatón</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h3 style="color: white;font-size: 25px;font-weight: 700; padding-top: 12px; padding-bottom: 12px;">Contáctanos</h3>
+                    <ul class="list-unstyled" style="font-weight: 400;">
+                        <li><a class="text-white" href="https://www.instagram.com/uvita.pet/" target="blank"><i class="fab fa-instagram-square" style="padding-right: 12px;"></i>@uvita.pet</a></li>
+                        <li><a class="text-white" href="https://www.facebook.com/uvita.pet" target="blank"><i class="fab fa-facebook-square" style="padding-right: 12px;"></i>@uvita.pet</a></li>
+                        <li><a class="text-white" href="mailto:nala.uvita@gmail.com" target="blank"><i class="fas fa-envelope-square" style="padding-right: 12px;"></i>nala.uvita@gmail.com</a></li>
+                        <li><a class="text-white" href="https://api.whatsapp.com/send?phone=51989521560&text=Hola, Nececito mas informacion!" target="blank"><i class="fab fa-whatsapp-square" style="padding-right: 12px;"></i>+51 989 521 560</a></li>    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3" style="background:rgb(238, 108, 151);color: white;">© 2021 Copyright:
+            <a class="text-white" style="font-weight:500;"href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+    </footer>
+    <script src="../js/DOM.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/pedido.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+</html>

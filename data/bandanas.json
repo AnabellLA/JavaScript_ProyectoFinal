@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 1,
+        "nombre" : "Bandana Dulce o Caca",
+        "precio" : 40, 
+        "talla" : "Small", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_1.jpg"
+    },
+    {
+        "id" : 2,
+        "nombre" : "Bandana Trick or Treat",
+        "precio" : 42, 
+        "talla" : "Medium", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_2.jpg"
+    },
+    {
+        "id" : 3,
+        "nombre" : "Bandana Kid's Nightmare",
+        "precio" : 44, 
+        "talla" : "Large", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_3.jpg"
+    },
+    {
+        "id" : 4,
+        "nombre" : "Bandana I smell Children",
+        "precio" : 46, 
+        "talla" : "X-Large", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_4.jpg"
+    },
+    {
+        "id" : 5,
+        "nombre" : "Bandana Kid's Nightmare",
+        "precio" : 44, 
+        "talla" : "Large", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_3.jpg"
+    },
+    {
+        "id" : 6,
+        "nombre" : "Bandana Trick or Treat",
+        "precio" : 42, 
+        "talla" : "Medium", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_2.jpg"
+    },
+    {
+        "id" : 7,
+        "nombre" : "Bandana I smell Children",
+        "precio" : 46, 
+        "talla" : "X-Large", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_4.jpg"
+    },
+    {
+        "id" : 8,
+        "nombre" : "Bandana Kid's Nightmare",
+        "precio" : 44, 
+        "talla" : "Large", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_3.jpg"
+    },
+    {
+        "id" : 9,
+        "nombre" : "Bandana Dulce o Caca",
+        "precio" : 40, 
+        "talla" : "Small", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_1.jpg"
+    },
+    {
+        "id" : 10,
+        "nombre" : "Bandana Trick or Treat",
+        "precio" : 42, 
+        "talla" : "Medium", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_2.jpg"
+    },
+    {
+        "id" : 11,
+        "nombre" : "Bandana Dulce o Caca",
+        "precio" : 40, 
+        "talla" : "Small", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_1.jpg"
+    },
+    {
+        "id" : 12,
+        "nombre" : "Bandana I smell Children",
+        "precio" : 46, 
+        "talla" : "X-Large", 
+        "imagen" : "../Assest/fotos_cuadradas/pic_4.jpg"
+    }
+]

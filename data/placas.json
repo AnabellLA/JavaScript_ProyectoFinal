@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 25,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/estrella_adelante.jpg"
+    },
+    {
+        "id" : 26,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/corazon_adelante.jpg"
+    },
+    {
+        "id" : 27,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/hueso_adelante.jpg"
+    },
+    {
+        "id" : 28,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/redonda_adelante.jpg"
+    },
+    {
+        "id" : 29,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/redonda_adelante.jpg"
+    },
+    {
+        "id" : 30,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/hueso_adelante.jpg"
+    },
+    {
+        "id" : 31,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/corazon_adelante.jpg"
+    },
+    {
+        "id" : 32,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/estrella_adelante.jpg"
+    },
+    {
+        "id" : 33,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/estrella_adelante.jpg"
+    },
+    {
+        "id" : 34,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/corazon_adelante.jpg"
+    },
+    {
+        "id" : 35,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/hueso_adelante.jpg"
+    },
+    {
+        "id" : 36,
+        "nombre" : "Plaquita #uvitaperron",
+        "precio" : 49, 
+        "talla" : "Talla única", 
+        "imagen" : "../Assest/fotos_cuadradas/redonda_adelante.jpg"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 13,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 29, 
+        "talla" : "Small", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4871.JPG"
+    },
+    {
+        "id" : 14,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 35, 
+        "talla" : "Medium", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4874.JPG"
+    },
+    {
+        "id" : 15,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 42, 
+        "talla" : "Large", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4887.JPG"
+    },
+    {
+        "id" : 16,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 55, 
+        "talla" : "X-Large", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4896.JPG"
+    },
+    {
+        "id" : 17,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 42, 
+        "talla" : "Large", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4899.JPG"
+    },
+    {
+        "id" : 18,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 35, 
+        "talla" : "Medium", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4919.JPG"
+    },
+    {
+        "id" : 19,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 55, 
+        "talla" : "X-Large", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4928.JPG"
+    },
+    {
+        "id" :20,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 42, 
+        "talla" : "Large", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4935.JPG"
+    },
+    {
+        "id" : 21,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 29, 
+        "talla" : "Small", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4941.JPG"
+    },
+    {
+        "id" : 22,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 35, 
+        "talla" : "Medium", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4944.JPG"
+    },
+    {
+        "id" : 23,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 29, 
+        "talla" : "Small", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4953.JPG"
+    },
+    {
+        "id" : 24,
+        "nombre" : "Correa #uvitaperron",
+        "precio" : 55, 
+        "talla" : "X-Large", 
+        "imagen" : "../Assest/fotos_cuadradas/IMG_4950.JPG"
+    }
+]

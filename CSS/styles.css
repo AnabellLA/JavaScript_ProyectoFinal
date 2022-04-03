@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#cart{
+    display: absolute;
+    display: inline-block;
+    text-align: center;
+}
+#totalCart{
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    background-color: rgba(216, 35, 97);
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    width: 19px;
+    height: 19px;
+    justify-content: center;
+    align-items: center;
+}
+/*main__index*/
+@media (min-width:500px) {
+    .text-uppercase{
+    font-size: 28px;
+    padding: 2rem;
+    }
+    .clase__main__index__caja__a{
+        color:white;
+        font-weight: 500;
+        font-size: 20px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        text-decoration: none;
+        text-align:center;
+        background: rgba(216, 35, 97, 0.64);
+    }
+}
+@media (max-width:499px) {
+    .text-uppercase{
+    font-size: 15px;
+    padding: 1rem 0 1rem 0.5rem;
+    }
+    .clase__main__index__caja__a{
+        color:white;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        text-decoration: none;
+        text-align:center;
+        background: rgba(216, 35, 97, 0.64);
+    }
+}
+.clase__main__index__text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.5rem;
+}
+.clase__main__index__text h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+}
+.clase__main__index{
+    display: grid;
+    grid-template-areas:
+    "caja1 caja2 caja3";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 0.1fr;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+    width: 95%;
+    height: auto;
+    column-gap: 1rem;
+}
+.clase__main__index__caja__1{
+    grid-area: caja1;
+    display: flex;
+    flex-direction: column;
+}
+.clase__main__index__caja__2{
+    grid-area: caja2;
+    display: flex;
+    flex-direction: column;
+}
+.clase__main__index__caja__3{
+    grid-area: caja3;
+    display: flex;
+    flex-direction: column;
+}
+.clase__main__index__caja__img{
+    width: 100%;
+    height: 100%;
+}
+.clase__main__index__caja__img:hover{
+    opacity: 0.75;
+}
+.clase__main__index__caja__1:hover{
+    transform: scale(1.05);
+}
+.clase__main__index__caja__2:hover{
+    transform: scale(1.05);
+}
+.clase__main__index__caja__3:hover{
+    transform: scale(1.05);
+}
+.clase__main__index__caja__a:hover{
+    text-decoration: none;
+    color: white;
+}
+/*main__nosotros*/
+.clase__main__nosotros__img{
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+    display:block;
+    margin:auto;
+    width: auto;
+    margin-top: 40px;
+}
+@media (min-width:500px){
+    .clase__main__nosotros h1{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        width: auto;
+        padding: 1rem 0;
+    }
+}
+@media (max-width:499px) {
+    .clase__main__nosotros h1{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        width: auto;
+        padding-top: 1rem;
+    }
+}
+.clase__main__nosotros p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center;
+    width: auto;
+    padding: 0 4.5rem;
+}
+.clase__main__nosotros h5{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align:center;
+    width: auto;
+}
+.clase__main__nosotros a{
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(236, 127, 57, 1);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-decoration: none;
+}
+.clase__main__nosotros a:hover{
+    opacity: 0.6;
+}
+.clase__main__nosotros img{
+    display:block;
+    margin:auto;
+    height: auto;
+    max-width: 540px;
+    width: 90%;
+    padding: 0 0 40px 0;
+}
+/*main_pataton*/
+@media (min-width:500px){
+    .clase__main__pataton h2{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 45px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 1.8rem;
+    }
+    .clase__main__pataton h3{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }    
+    .clase__main__pataton p{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        padding: 0 4.5rem;
+    }
+    .clase__main__pataton a{
+        font-weight: 500;
+        font-size: 25px;
+        color: rgba(236, 127, 57, 1);
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        text-decoration: none;
+    }
+}
+@media (max-width:499px) {
+    .clase__main__pataton h2{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        padding: 2rem 0 1rem 0;
+    }
+    .clase__main__pataton h3{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .clase__main__pataton p{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        padding: 0 4.5rem;
+    }
+    .clase__main__pataton a{
+        font-weight: 500;
+        font-size: 22px;
+        color: rgba(236, 127, 57, 1);
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        text-decoration: none;
+    }
+}
+.clase__main__pataton__banner img{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.clase__main__pataton a:hover{
+    opacity: 0.6;
+    animation: latidos .7s infinite;
+}
+.clase__main__pataton img{
+    display:block;
+    margin:auto;
+    max-height: 250px;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 50%;
+}
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.1); }
+    to { transform: none; }
+}
+.clase__main__pataton__img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 1rem;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*main_bandanas/correas/placas*/
+.clase__main__producto__pretitulo{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 15px;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+.clase__main__producto__pretitulo h4{
+    font-size: 20px;
+    font-weight: 300;
+}
